@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Git for Unity
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 49
+  controlID: 107
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -64,9 +64,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1466
+    x: 1500
     y: 0
-    width: 454
+    width: 420
     height: 939
   m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
@@ -93,7 +93,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 363
+    width: 369
     height: 556
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
@@ -119,7 +119,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 556
-    width: 1466
+    width: 1500
     height: 383
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
@@ -219,12 +219,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1466
+    width: 1500
     height: 939
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 17
+  controlID: 108
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,12 +244,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1466
+    width: 1500
     height: 556
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 18
+  controlID: 109
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -265,9 +265,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 363
+    x: 369
     y: 0
-    width: 1103
+    width: 1131
     height: 556
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -297,9 +297,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1466
+    x: 1500
     y: 73
-    width: 453
+    width: 419
     height: 918
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -313,8 +313,8 @@ MonoBehaviour:
   currentStatusEntriesHasUpdate: 0
   repositoryProgressHasUpdate: 0
   appManagerProgressHasUpdate: 0
-  changeTab: 2
-  activeTab: 2
+  changeTab: 3
+  activeTab: 3
   initProjectView:
     hasCompletedInitialCheck: 1
     isUserDataPresent: 1
@@ -403,7 +403,7 @@ MonoBehaviour:
     commitBody: 
     commitMessage: 
     currentBranch: master
-    treeScroll: {x: 0, y: 1145}
+    treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
         keys: []
@@ -461,10 +461,10 @@ MonoBehaviour:
     gitStatusEntries: []
     changedFilesText: No changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2022-11-26T18:09:00.427+03:00
+      updatedTimeString: 2022-11-26T18:47:23.194+03:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2022-11-26T18:25:19.085+03:00
+      updatedTimeString: 2022-11-26T18:51:02.326+03:00
       cacheType: 6
     lastLocksChangedEvent:
       updatedTimeString: 0001-01-01T00:00:00.000+00:00
@@ -473,6 +473,30 @@ MonoBehaviour:
     currentLogHasUpdate: 0
     currentTrackingStatusHasUpdate: 0
     logEntries:
+    - commitID: cb201ddcb073fd873aa41de6a7ce7a2ebe6bac8a
+      mergeA: 
+      mergeB: 
+      authorName: Thai
+      authorEmail: 61286182+Thai07@users.noreply.github.com
+      commitEmail: 61286182+Thai07@users.noreply.github.com
+      commitName: Thai
+      summary: x
+      description: 
+      timeString: 2022-11-26T18:35:13.000+03:00
+      commitTimeString: 2022-11-26T18:35:13.000+03:00
+      changes:
+      - path: UserSettings\HDRPUserSettings.asset
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\UserSettings\HDRPUserSettings.asset
+        projectPath: UserSettings\HDRPUserSettings.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2021.dwlt
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\UserSettings\Layouts\default-2021.dwlt
+        projectPath: UserSettings\Layouts\default-2021.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
     - commitID: 5316e7244dad3242e1737c9baf7086d487b404b9
       mergeA: 
       mergeB: 
@@ -486,445 +510,445 @@ MonoBehaviour:
       commitTimeString: 2022-11-26T18:16:39.000+03:00
       changes:
       - path: .vscode\settings.json
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\.vscode\settings.json
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\.vscode\settings.json
         projectPath: .vscode\settings.json
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\OutdoorsScene.unity
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\OutdoorsScene.unity
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\OutdoorsScene.unity
         projectPath: Assets\OutdoorsScene.unity
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\OutdoorsScene.unity.meta
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\OutdoorsScene.unity.meta
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\OutdoorsScene.unity.meta
         projectPath: Assets\OutdoorsScene.unity.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Readme.asset
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Readme.asset
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\Readme.asset
         projectPath: Assets\Readme.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Readme.asset.meta
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Readme.asset.meta
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\Readme.asset.meta
         projectPath: Assets\Readme.asset.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Settings.meta
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings.meta
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\Settings.meta
         projectPath: Assets\Settings.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Settings\HDRP Balanced.asset
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRP
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRP
           Balanced.asset
         projectPath: Assets\Settings\HDRP Balanced.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Settings\HDRP Balanced.asset.meta
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRP
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRP
           Balanced.asset.meta
         projectPath: Assets\Settings\HDRP Balanced.asset.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Settings\HDRP High Fidelity.asset
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRP
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRP
           High Fidelity.asset
         projectPath: Assets\Settings\HDRP High Fidelity.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Settings\HDRP High Fidelity.asset.meta
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRP
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRP
           High Fidelity.asset.meta
         projectPath: Assets\Settings\HDRP High Fidelity.asset.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Settings\HDRP Performant.asset
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRP
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRP
           Performant.asset
         projectPath: Assets\Settings\HDRP Performant.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Settings\HDRP Performant.asset.meta
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRP
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRP
           Performant.asset.meta
         projectPath: Assets\Settings\HDRP Performant.asset.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Settings\HDRPDefaultResources.meta
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources.meta
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources.meta
         projectPath: Assets\Settings\HDRPDefaultResources.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Settings\HDRPDefaultResources\DefaultLookDevProfile.asset
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\DefaultLookDevProfile.asset
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\DefaultLookDevProfile.asset
         projectPath: Assets\Settings\HDRPDefaultResources\DefaultLookDevProfile.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Settings\HDRPDefaultResources\DefaultLookDevProfile.asset.meta
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\DefaultLookDevProfile.asset.meta
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\DefaultLookDevProfile.asset.meta
         projectPath: Assets\Settings\HDRPDefaultResources\DefaultLookDevProfile.asset.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Settings\HDRPDefaultResources\DefaultSettingsVolumeProfile.asset
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\DefaultSettingsVolumeProfile.asset
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\DefaultSettingsVolumeProfile.asset
         projectPath: Assets\Settings\HDRPDefaultResources\DefaultSettingsVolumeProfile.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Settings\HDRPDefaultResources\DefaultSettingsVolumeProfile.asset.meta
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\DefaultSettingsVolumeProfile.asset.meta
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\DefaultSettingsVolumeProfile.asset.meta
         projectPath: Assets\Settings\HDRPDefaultResources\DefaultSettingsVolumeProfile.asset.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Settings\HDRPDefaultResources\FoliageDiffusionProfile.asset
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\FoliageDiffusionProfile.asset
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\FoliageDiffusionProfile.asset
         projectPath: Assets\Settings\HDRPDefaultResources\FoliageDiffusionProfile.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Settings\HDRPDefaultResources\FoliageDiffusionProfile.asset.meta
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\FoliageDiffusionProfile.asset.meta
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\FoliageDiffusionProfile.asset.meta
         projectPath: Assets\Settings\HDRPDefaultResources\FoliageDiffusionProfile.asset.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Settings\HDRPDefaultResources\HDRenderPipelineAsset.asset
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\HDRenderPipelineAsset.asset
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\HDRenderPipelineAsset.asset
         projectPath: Assets\Settings\HDRPDefaultResources\HDRenderPipelineAsset.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Settings\HDRPDefaultResources\HDRenderPipelineAsset.asset.meta
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\HDRenderPipelineAsset.asset.meta
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\HDRenderPipelineAsset.asset.meta
         projectPath: Assets\Settings\HDRPDefaultResources\HDRenderPipelineAsset.asset.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Settings\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset
         projectPath: Assets\Settings\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Settings\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset.meta
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset.meta
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset.meta
         projectPath: Assets\Settings\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Settings\HDRPDefaultResources\SkinDiffusionProfile.asset
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\SkinDiffusionProfile.asset
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\SkinDiffusionProfile.asset
         projectPath: Assets\Settings\HDRPDefaultResources\SkinDiffusionProfile.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Settings\HDRPDefaultResources\SkinDiffusionProfile.asset.meta
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\SkinDiffusionProfile.asset.meta
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\SkinDiffusionProfile.asset.meta
         projectPath: Assets\Settings\HDRPDefaultResources\SkinDiffusionProfile.asset.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Settings\SkyandFogSettingsProfile.asset
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\SkyandFogSettingsProfile.asset
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\Settings\SkyandFogSettingsProfile.asset
         projectPath: Assets\Settings\SkyandFogSettingsProfile.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Settings\SkyandFogSettingsProfile.asset.meta
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\SkyandFogSettingsProfile.asset.meta
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\Settings\SkyandFogSettingsProfile.asset.meta
         projectPath: Assets\Settings\SkyandFogSettingsProfile.asset.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\TutorialInfo.meta
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo.meta
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo.meta
         projectPath: Assets\TutorialInfo.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\TutorialInfo\Icons.meta
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Icons.meta
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Icons.meta
         projectPath: Assets\TutorialInfo\Icons.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\TutorialInfo\Icons\HDRP.png
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Icons\HDRP.png
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Icons\HDRP.png
         projectPath: Assets\TutorialInfo\Icons\HDRP.png
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\TutorialInfo\Icons\HDRP.png.meta
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Icons\HDRP.png.meta
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Icons\HDRP.png.meta
         projectPath: Assets\TutorialInfo\Icons\HDRP.png.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\TutorialInfo\Icons\Help_Icon.png
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Icons\Help_Icon.png
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Icons\Help_Icon.png
         projectPath: Assets\TutorialInfo\Icons\Help_Icon.png
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\TutorialInfo\Icons\Help_Icon.png.meta
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Icons\Help_Icon.png.meta
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Icons\Help_Icon.png.meta
         projectPath: Assets\TutorialInfo\Icons\Help_Icon.png.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\TutorialInfo\Layout.wlt
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Layout.wlt
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Layout.wlt
         projectPath: Assets\TutorialInfo\Layout.wlt
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\TutorialInfo\Layout.wlt.meta
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Layout.wlt.meta
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Layout.wlt.meta
         projectPath: Assets\TutorialInfo\Layout.wlt.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\TutorialInfo\Scripts.meta
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Scripts.meta
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Scripts.meta
         projectPath: Assets\TutorialInfo\Scripts.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\TutorialInfo\Scripts\Editor.meta
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Scripts\Editor.meta
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Scripts\Editor.meta
         projectPath: Assets\TutorialInfo\Scripts\Editor.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs
         projectPath: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs.meta
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs.meta
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs.meta
         projectPath: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\TutorialInfo\Scripts\Readme.cs
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Scripts\Readme.cs
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Scripts\Readme.cs
         projectPath: Assets\TutorialInfo\Scripts\Readme.cs
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\TutorialInfo\Scripts\Readme.cs.meta
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Scripts\Readme.cs.meta
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Scripts\Readme.cs.meta
         projectPath: Assets\TutorialInfo\Scripts\Readme.cs.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Packages\manifest.json
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Packages\manifest.json
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Packages\manifest.json
         projectPath: Packages\manifest.json
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Packages\packages-lock.json
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Packages\packages-lock.json
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Packages\packages-lock.json
         projectPath: Packages\packages-lock.json
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\AudioManager.asset
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\AudioManager.asset
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\AudioManager.asset
         projectPath: ProjectSettings\AudioManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\ClusterInputManager.asset
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\ClusterInputManager.asset
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\ClusterInputManager.asset
         projectPath: ProjectSettings\ClusterInputManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\DynamicsManager.asset
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\DynamicsManager.asset
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\DynamicsManager.asset
         projectPath: ProjectSettings\DynamicsManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\EditorBuildSettings.asset
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\EditorBuildSettings.asset
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\EditorBuildSettings.asset
         projectPath: ProjectSettings\EditorBuildSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\EditorSettings.asset
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\EditorSettings.asset
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\EditorSettings.asset
         projectPath: ProjectSettings\EditorSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\GraphicsSettings.asset
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\GraphicsSettings.asset
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\GraphicsSettings.asset
         projectPath: ProjectSettings\GraphicsSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\HDRPProjectSettings.asset
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\HDRPProjectSettings.asset
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\HDRPProjectSettings.asset
         projectPath: ProjectSettings\HDRPProjectSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\InputManager.asset
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\InputManager.asset
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\InputManager.asset
         projectPath: ProjectSettings\InputManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\MemorySettings.asset
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\MemorySettings.asset
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\MemorySettings.asset
         projectPath: ProjectSettings\MemorySettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\NavMeshAreas.asset
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\NavMeshAreas.asset
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\NavMeshAreas.asset
         projectPath: ProjectSettings\NavMeshAreas.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\PackageManagerSettings.asset
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\PackageManagerSettings.asset
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\PackageManagerSettings.asset
         projectPath: ProjectSettings\PackageManagerSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
         projectPath: ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\Physics2DSettings.asset
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\Physics2DSettings.asset
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\Physics2DSettings.asset
         projectPath: ProjectSettings\Physics2DSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\PresetManager.asset
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\PresetManager.asset
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\PresetManager.asset
         projectPath: ProjectSettings\PresetManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\ProjectSettings.asset
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\ProjectSettings.asset
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\ProjectSettings.asset
         projectPath: ProjectSettings\ProjectSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\ProjectVersion.txt
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\ProjectVersion.txt
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\ProjectVersion.txt
         projectPath: ProjectSettings\ProjectVersion.txt
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\QualitySettings.asset
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\QualitySettings.asset
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\QualitySettings.asset
         projectPath: ProjectSettings\QualitySettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\SceneTemplateSettings.json
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\SceneTemplateSettings.json
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\SceneTemplateSettings.json
         projectPath: ProjectSettings\SceneTemplateSettings.json
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\ShaderGraphSettings.asset
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\ShaderGraphSettings.asset
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\ShaderGraphSettings.asset
         projectPath: ProjectSettings\ShaderGraphSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\TagManager.asset
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\TagManager.asset
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\TagManager.asset
         projectPath: ProjectSettings\TagManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\TimeManager.asset
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\TimeManager.asset
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\TimeManager.asset
         projectPath: ProjectSettings\TimeManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\UnityConnectSettings.asset
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\UnityConnectSettings.asset
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\UnityConnectSettings.asset
         projectPath: ProjectSettings\UnityConnectSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\VFXManager.asset
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\VFXManager.asset
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\VFXManager.asset
         projectPath: ProjectSettings\VFXManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\VersionControlSettings.asset
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\VersionControlSettings.asset
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\VersionControlSettings.asset
         projectPath: ProjectSettings\VersionControlSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\XRSettings.asset
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\XRSettings.asset
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\XRSettings.asset
         projectPath: ProjectSettings\XRSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\boot.config
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\boot.config
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\boot.config
         projectPath: ProjectSettings\boot.config
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: UserSettings\EditorUserSettings.asset
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\UserSettings\EditorUserSettings.asset
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\UserSettings\EditorUserSettings.asset
         projectPath: UserSettings\EditorUserSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: UserSettings\HDRPUserSettings.asset
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\UserSettings\HDRPUserSettings.asset
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\UserSettings\HDRPUserSettings.asset
         projectPath: UserSettings\HDRPUserSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: UserSettings\Layouts\default-2021.dwlt
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\UserSettings\Layouts\default-2021.dwlt
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\UserSettings\Layouts\default-2021.dwlt
         projectPath: UserSettings\Layouts\default-2021.dwlt
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: UserSettings\Search.settings
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\UserSettings\Search.settings
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\UserSettings\Search.settings
         projectPath: UserSettings\Search.settings
         originalPath: 
         indexStatus: 4
@@ -942,33 +966,57 @@ MonoBehaviour:
       commitTimeString: 2022-11-26T18:08:52.000+03:00
       changes:
       - path: .gitattributes
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\.gitattributes
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\.gitattributes
         projectPath: .gitattributes
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: .gitignore
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\.gitignore
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\.gitignore
         projectPath: .gitignore
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\.gitignore
-        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\.gitignore
+        fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\.gitignore
         projectPath: Assets\.gitignore
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
     statusAhead: 0
     lastLogChangedEvent:
-      updatedTimeString: 2022-11-26T18:25:21.073+03:00
+      updatedTimeString: 2022-11-26T18:47:23.203+03:00
       cacheType: 3
     lastTrackingStatusChangedEvent:
-      updatedTimeString: 2022-11-26T18:25:19.138+03:00
+      updatedTimeString: 2022-11-26T18:47:23.196+03:00
       cacheType: 5
     historyControl:
       scroll: {x: 0, y: 0}
       entries:
+      - commitID: cb201ddcb073fd873aa41de6a7ce7a2ebe6bac8a
+        mergeA: 
+        mergeB: 
+        authorName: Thai
+        authorEmail: 61286182+Thai07@users.noreply.github.com
+        commitEmail: 61286182+Thai07@users.noreply.github.com
+        commitName: Thai
+        summary: x
+        description: 
+        timeString: 2022-11-26T18:35:13.000+03:00
+        commitTimeString: 2022-11-26T18:35:13.000+03:00
+        changes:
+        - path: UserSettings\HDRPUserSettings.asset
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\UserSettings\HDRPUserSettings.asset
+          projectPath: UserSettings\HDRPUserSettings.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2021.dwlt
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\UserSettings\Layouts\default-2021.dwlt
+          projectPath: UserSettings\Layouts\default-2021.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
       - commitID: 5316e7244dad3242e1737c9baf7086d487b404b9
         mergeA: 
         mergeB: 
@@ -982,445 +1030,445 @@ MonoBehaviour:
         commitTimeString: 2022-11-26T18:16:39.000+03:00
         changes:
         - path: .vscode\settings.json
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\.vscode\settings.json
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\.vscode\settings.json
           projectPath: .vscode\settings.json
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\OutdoorsScene.unity
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\OutdoorsScene.unity
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\OutdoorsScene.unity
           projectPath: Assets\OutdoorsScene.unity
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\OutdoorsScene.unity.meta
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\OutdoorsScene.unity.meta
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\OutdoorsScene.unity.meta
           projectPath: Assets\OutdoorsScene.unity.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Readme.asset
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Readme.asset
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\Readme.asset
           projectPath: Assets\Readme.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Readme.asset.meta
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Readme.asset.meta
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\Readme.asset.meta
           projectPath: Assets\Readme.asset.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Settings.meta
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings.meta
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\Settings.meta
           projectPath: Assets\Settings.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Settings\HDRP Balanced.asset
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRP
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRP
             Balanced.asset
           projectPath: Assets\Settings\HDRP Balanced.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Settings\HDRP Balanced.asset.meta
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRP
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRP
             Balanced.asset.meta
           projectPath: Assets\Settings\HDRP Balanced.asset.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Settings\HDRP High Fidelity.asset
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRP
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRP
             High Fidelity.asset
           projectPath: Assets\Settings\HDRP High Fidelity.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Settings\HDRP High Fidelity.asset.meta
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRP
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRP
             High Fidelity.asset.meta
           projectPath: Assets\Settings\HDRP High Fidelity.asset.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Settings\HDRP Performant.asset
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRP
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRP
             Performant.asset
           projectPath: Assets\Settings\HDRP Performant.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Settings\HDRP Performant.asset.meta
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRP
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRP
             Performant.asset.meta
           projectPath: Assets\Settings\HDRP Performant.asset.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Settings\HDRPDefaultResources.meta
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources.meta
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources.meta
           projectPath: Assets\Settings\HDRPDefaultResources.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Settings\HDRPDefaultResources\DefaultLookDevProfile.asset
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\DefaultLookDevProfile.asset
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\DefaultLookDevProfile.asset
           projectPath: Assets\Settings\HDRPDefaultResources\DefaultLookDevProfile.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Settings\HDRPDefaultResources\DefaultLookDevProfile.asset.meta
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\DefaultLookDevProfile.asset.meta
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\DefaultLookDevProfile.asset.meta
           projectPath: Assets\Settings\HDRPDefaultResources\DefaultLookDevProfile.asset.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Settings\HDRPDefaultResources\DefaultSettingsVolumeProfile.asset
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\DefaultSettingsVolumeProfile.asset
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\DefaultSettingsVolumeProfile.asset
           projectPath: Assets\Settings\HDRPDefaultResources\DefaultSettingsVolumeProfile.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Settings\HDRPDefaultResources\DefaultSettingsVolumeProfile.asset.meta
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\DefaultSettingsVolumeProfile.asset.meta
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\DefaultSettingsVolumeProfile.asset.meta
           projectPath: Assets\Settings\HDRPDefaultResources\DefaultSettingsVolumeProfile.asset.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Settings\HDRPDefaultResources\FoliageDiffusionProfile.asset
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\FoliageDiffusionProfile.asset
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\FoliageDiffusionProfile.asset
           projectPath: Assets\Settings\HDRPDefaultResources\FoliageDiffusionProfile.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Settings\HDRPDefaultResources\FoliageDiffusionProfile.asset.meta
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\FoliageDiffusionProfile.asset.meta
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\FoliageDiffusionProfile.asset.meta
           projectPath: Assets\Settings\HDRPDefaultResources\FoliageDiffusionProfile.asset.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Settings\HDRPDefaultResources\HDRenderPipelineAsset.asset
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\HDRenderPipelineAsset.asset
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\HDRenderPipelineAsset.asset
           projectPath: Assets\Settings\HDRPDefaultResources\HDRenderPipelineAsset.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Settings\HDRPDefaultResources\HDRenderPipelineAsset.asset.meta
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\HDRenderPipelineAsset.asset.meta
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\HDRenderPipelineAsset.asset.meta
           projectPath: Assets\Settings\HDRPDefaultResources\HDRenderPipelineAsset.asset.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Settings\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset
           projectPath: Assets\Settings\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Settings\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset.meta
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset.meta
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset.meta
           projectPath: Assets\Settings\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Settings\HDRPDefaultResources\SkinDiffusionProfile.asset
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\SkinDiffusionProfile.asset
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\SkinDiffusionProfile.asset
           projectPath: Assets\Settings\HDRPDefaultResources\SkinDiffusionProfile.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Settings\HDRPDefaultResources\SkinDiffusionProfile.asset.meta
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\SkinDiffusionProfile.asset.meta
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\SkinDiffusionProfile.asset.meta
           projectPath: Assets\Settings\HDRPDefaultResources\SkinDiffusionProfile.asset.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Settings\SkyandFogSettingsProfile.asset
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\SkyandFogSettingsProfile.asset
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\Settings\SkyandFogSettingsProfile.asset
           projectPath: Assets\Settings\SkyandFogSettingsProfile.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Settings\SkyandFogSettingsProfile.asset.meta
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\SkyandFogSettingsProfile.asset.meta
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\Settings\SkyandFogSettingsProfile.asset.meta
           projectPath: Assets\Settings\SkyandFogSettingsProfile.asset.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\TutorialInfo.meta
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo.meta
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo.meta
           projectPath: Assets\TutorialInfo.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\TutorialInfo\Icons.meta
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Icons.meta
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Icons.meta
           projectPath: Assets\TutorialInfo\Icons.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\TutorialInfo\Icons\HDRP.png
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Icons\HDRP.png
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Icons\HDRP.png
           projectPath: Assets\TutorialInfo\Icons\HDRP.png
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\TutorialInfo\Icons\HDRP.png.meta
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Icons\HDRP.png.meta
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Icons\HDRP.png.meta
           projectPath: Assets\TutorialInfo\Icons\HDRP.png.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\TutorialInfo\Icons\Help_Icon.png
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Icons\Help_Icon.png
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Icons\Help_Icon.png
           projectPath: Assets\TutorialInfo\Icons\Help_Icon.png
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\TutorialInfo\Icons\Help_Icon.png.meta
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Icons\Help_Icon.png.meta
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Icons\Help_Icon.png.meta
           projectPath: Assets\TutorialInfo\Icons\Help_Icon.png.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\TutorialInfo\Layout.wlt
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Layout.wlt
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Layout.wlt
           projectPath: Assets\TutorialInfo\Layout.wlt
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\TutorialInfo\Layout.wlt.meta
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Layout.wlt.meta
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Layout.wlt.meta
           projectPath: Assets\TutorialInfo\Layout.wlt.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\TutorialInfo\Scripts.meta
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Scripts.meta
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Scripts.meta
           projectPath: Assets\TutorialInfo\Scripts.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\TutorialInfo\Scripts\Editor.meta
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Scripts\Editor.meta
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Scripts\Editor.meta
           projectPath: Assets\TutorialInfo\Scripts\Editor.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs
           projectPath: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs.meta
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs.meta
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs.meta
           projectPath: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\TutorialInfo\Scripts\Readme.cs
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Scripts\Readme.cs
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Scripts\Readme.cs
           projectPath: Assets\TutorialInfo\Scripts\Readme.cs
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\TutorialInfo\Scripts\Readme.cs.meta
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Scripts\Readme.cs.meta
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Scripts\Readme.cs.meta
           projectPath: Assets\TutorialInfo\Scripts\Readme.cs.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Packages\manifest.json
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Packages\manifest.json
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Packages\manifest.json
           projectPath: Packages\manifest.json
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Packages\packages-lock.json
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Packages\packages-lock.json
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Packages\packages-lock.json
           projectPath: Packages\packages-lock.json
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\AudioManager.asset
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\AudioManager.asset
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\AudioManager.asset
           projectPath: ProjectSettings\AudioManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\ClusterInputManager.asset
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\ClusterInputManager.asset
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\ClusterInputManager.asset
           projectPath: ProjectSettings\ClusterInputManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\DynamicsManager.asset
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\DynamicsManager.asset
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\DynamicsManager.asset
           projectPath: ProjectSettings\DynamicsManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\EditorBuildSettings.asset
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\EditorBuildSettings.asset
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\EditorBuildSettings.asset
           projectPath: ProjectSettings\EditorBuildSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\EditorSettings.asset
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\EditorSettings.asset
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\EditorSettings.asset
           projectPath: ProjectSettings\EditorSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\GraphicsSettings.asset
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\GraphicsSettings.asset
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\GraphicsSettings.asset
           projectPath: ProjectSettings\GraphicsSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\HDRPProjectSettings.asset
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\HDRPProjectSettings.asset
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\HDRPProjectSettings.asset
           projectPath: ProjectSettings\HDRPProjectSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\InputManager.asset
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\InputManager.asset
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\InputManager.asset
           projectPath: ProjectSettings\InputManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\MemorySettings.asset
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\MemorySettings.asset
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\MemorySettings.asset
           projectPath: ProjectSettings\MemorySettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\NavMeshAreas.asset
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\NavMeshAreas.asset
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\NavMeshAreas.asset
           projectPath: ProjectSettings\NavMeshAreas.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\PackageManagerSettings.asset
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\PackageManagerSettings.asset
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\PackageManagerSettings.asset
           projectPath: ProjectSettings\PackageManagerSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
           projectPath: ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\Physics2DSettings.asset
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\Physics2DSettings.asset
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\Physics2DSettings.asset
           projectPath: ProjectSettings\Physics2DSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\PresetManager.asset
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\PresetManager.asset
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\PresetManager.asset
           projectPath: ProjectSettings\PresetManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\ProjectSettings.asset
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\ProjectSettings.asset
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\ProjectSettings.asset
           projectPath: ProjectSettings\ProjectSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\ProjectVersion.txt
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\ProjectVersion.txt
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\ProjectVersion.txt
           projectPath: ProjectSettings\ProjectVersion.txt
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\QualitySettings.asset
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\QualitySettings.asset
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\QualitySettings.asset
           projectPath: ProjectSettings\QualitySettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\SceneTemplateSettings.json
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\SceneTemplateSettings.json
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\SceneTemplateSettings.json
           projectPath: ProjectSettings\SceneTemplateSettings.json
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\ShaderGraphSettings.asset
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\ShaderGraphSettings.asset
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\ShaderGraphSettings.asset
           projectPath: ProjectSettings\ShaderGraphSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\TagManager.asset
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\TagManager.asset
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\TagManager.asset
           projectPath: ProjectSettings\TagManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\TimeManager.asset
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\TimeManager.asset
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\TimeManager.asset
           projectPath: ProjectSettings\TimeManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\UnityConnectSettings.asset
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\UnityConnectSettings.asset
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\UnityConnectSettings.asset
           projectPath: ProjectSettings\UnityConnectSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\VFXManager.asset
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\VFXManager.asset
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\VFXManager.asset
           projectPath: ProjectSettings\VFXManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\VersionControlSettings.asset
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\VersionControlSettings.asset
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\VersionControlSettings.asset
           projectPath: ProjectSettings\VersionControlSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\XRSettings.asset
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\XRSettings.asset
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\XRSettings.asset
           projectPath: ProjectSettings\XRSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\boot.config
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\boot.config
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\ProjectSettings\boot.config
           projectPath: ProjectSettings\boot.config
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: UserSettings\EditorUserSettings.asset
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\UserSettings\EditorUserSettings.asset
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\UserSettings\EditorUserSettings.asset
           projectPath: UserSettings\EditorUserSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: UserSettings\HDRPUserSettings.asset
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\UserSettings\HDRPUserSettings.asset
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\UserSettings\HDRPUserSettings.asset
           projectPath: UserSettings\HDRPUserSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: UserSettings\Layouts\default-2021.dwlt
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\UserSettings\Layouts\default-2021.dwlt
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\UserSettings\Layouts\default-2021.dwlt
           projectPath: UserSettings\Layouts\default-2021.dwlt
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: UserSettings\Search.settings
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\UserSettings\Search.settings
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\UserSettings\Search.settings
           projectPath: UserSettings\Search.settings
           originalPath: 
           indexStatus: 4
@@ -1438,37 +1486,37 @@ MonoBehaviour:
         commitTimeString: 2022-11-26T18:08:52.000+03:00
         changes:
         - path: .gitattributes
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\.gitattributes
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\.gitattributes
           projectPath: .gitattributes
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: .gitignore
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\.gitignore
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\.gitignore
           projectPath: .gitignore
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\.gitignore
-          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\.gitignore
+          fullPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test\Assets\.gitignore
           projectPath: Assets\.gitignore
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
       statusAhead: 0
-      selectedIndex: 0
+      selectedIndex: -1
     selectedEntry:
-      commitID: 5316e7244dad3242e1737c9baf7086d487b404b9
+      commitID: 
       mergeA: 
       mergeB: 
-      authorName: Thai
-      authorEmail: 61286182+Thai07@users.noreply.github.com
-      commitEmail: 61286182+Thai07@users.noreply.github.com
-      commitName: Thai
-      summary: x
+      authorName: 
+      authorEmail: 
+      commitEmail: 
+      commitName: 
+      summary: 
       description: 
-      timeString: 2022-11-26T18:16:39.000+03:00
-      commitTimeString: 2022-11-26T18:16:39.000+03:00
+      timeString: 0001-01-01T00:00:00.000+00:00
+      commitTimeString: 0001-01-01T00:00:00.000+00:00
       changes:
       - path: .vscode\settings.json
         fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\.vscode\settings.json
@@ -3878,30 +3926,30 @@ MonoBehaviour:
       m_Text: Release Lock (forced)
       m_Image: {fileID: 0}
       m_Tooltip: 
-  hasRemote: 0
-  currentRemoteName: 
+  hasRemote: 1
+  currentRemoteName: origin
   currentBranch: master
-  currentRemoteUrl: No remote configured
-  statusAhead: 0
+  currentRemoteUrl: https://github.com/Thai07/unity-git-test.git
+  statusAhead: 1
   statusBehind: 0
   hasItemsToCommit: 0
-  isTrackingRemoteBranch: 0
+  isTrackingRemoteBranch: 1
   currentBranchContent:
     m_Text: master
     m_Image: {fileID: 0}
     m_Tooltip: Active branch
   currentRemoteUrlContent:
-    m_Text: No remote configured
+    m_Text: https://github.com/Thai07/unity-git-test.git
     m_Image: {fileID: 0}
-    m_Tooltip: Add a remote in the Settings tab
+    m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2022-11-26T18:09:00.427+03:00
+    updatedTimeString: 2022-11-26T18:47:23.194+03:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2022-11-26T18:25:19.138+03:00
+    updatedTimeString: 2022-11-26T18:51:15.862+03:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2022-11-26T18:25:19.085+03:00
+    updatedTimeString: 2022-11-26T18:51:02.326+03:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -3947,7 +3995,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 629
-    width: 1465
+    width: 1499
     height: 362
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -3974,14 +4022,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test
+  m_LastProjectPath: C:\Users\mazda\Documents\Unity Projects\unity-git-test
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ec730000
-    m_LastClickedID: 29676
-    m_ExpandedIDs: 00000000ec73000000ca9a3bffffff7f
+    m_SelectedIDs: 2adb0000
+    m_LastClickedID: 56106
+    m_ExpandedIDs: 000000002adb000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -4009,7 +4057,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ec730000
+    m_ExpandedIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -4036,7 +4084,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -4130,7 +4178,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 362
+    width: 368
     height: 535
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -4141,7 +4189,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 32fbffff
+      m_ExpandedIDs: 30a7ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -4186,9 +4234,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 363
+    x: 369
     y: 73
-    width: 1101
+    width: 1129
     height: 535
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -4498,17 +4546,17 @@ MonoBehaviour:
       m_Fade:
         m_Target: 0
         speed: 2
-        m_Value: 0
+        m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 0, y: 0}
+      m_Size: {x: 1, y: 1}
     m_ShowGrid: 1
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
     m_Target: {x: -0.11060158, y: 0.8033461, z: -0.1576754, w: -0.56350785}
     speed: 2
-    m_Value: {x: -0.11060157, y: 0.803346, z: -0.15767539, w: -0.5635078}
+    m_Value: {x: 0.110601574, y: -0.8033461, z: 0.15767539, w: 0.5635079}
   m_Size:
     m_Target: 10.386644
     speed: 2
@@ -4530,7 +4578,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
+  m_LastSceneViewRotation: {x: -0.11060158, y: 0.8033461, z: -0.1576754, w: -0.56350785}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
