@@ -8,6 +8,7 @@ public class mover : MonoBehaviour
     void Start()
     {
         print("sex");
+    }
 
     // Update is called once per frame
     void Update()
