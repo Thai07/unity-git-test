@@ -7,7 +7,7 @@ public class mover : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        print("sex")
+        print("sex");
 
     // Update is called once per frame
     void Update()
